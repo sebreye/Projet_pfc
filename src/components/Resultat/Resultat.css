@@ -1,5 +1,5 @@
 .Resultat{
-    display: none;
+    display: flex;
     padding-top: 10vh;
     margin: auto ;
     width: 700px;
@@ -21,19 +21,24 @@
     border-radius: 10px;
     cursor: pointer;
 }
-
+.userpick img {
+    margin: 40px;
+}
 
 .userplace{
     margin: 10px;
     height: 150px;
     width: 150px;
-    background-color: #020329;
+    background-color: #ffffff;
     border-radius: 50%;
 }
 .systemplace{
     margin: 10px;
     height: 150px;
     width: 150px;
-    background-color: #020329;
+    background-color: #ffffff;
     border-radius: 50%;
+}
+.systempick img{
+    margin: 40px;
 }
