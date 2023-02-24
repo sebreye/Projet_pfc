@@ -1,0 +1,61 @@
+.play-board {
+    display: block;
+    padding: 2rem;
+    position: relative;
+    width: 20rem;
+    margin: 2rem auto;
+    }
+    
+    .play-board_inner {
+    height: 20rem;
+    background-image: url('../../../public/images/bg-triangle.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: relative;
+    }
+    .play-board_inner .shape-box {
+        position: absolute;
+    }
+    .paper-box {
+        top: 0;
+        left: -1rem;
+    }
+    .shape-button {
+        width: 6rem;
+        height: 6rem;
+        background: #fff;
+        border-radius: 50% 55%;
+        border: 1rem solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s;
+    }
+    .play-board_inner .shape-button:hover {
+        transform: scale(1.05);
+    }
+    .shape-button > img {
+        width: 2rem;
+    }
+    .shape_paper {
+        border-color: #4865f4;
+        box-shadow: 0 4px hsl(210, 3%, 76%) inset, 0 5px rgb(46, 46, 235);
+    }
+    .rock-box {
+        bottom: 2rem;
+        left: 30%;
+    }
+
+    .shape_rock {
+        border-color: #dd405d;
+        box-shadow: 0 4px hsl(210, 3%, 76%) inset, 0 5px #dc2e4e;
+    }
+    .scissors-box {
+        top: 0;
+        right: -1rem;
+    }
+    .shape_scissors {
+        border-color: #ec9e0e;
+        box-shadow: 0 4px hsl(210, 3%, 76%) inset, 0 5px #976303;
+    }

@@ -1,0 +1,38 @@
+.modal {
+    display: none;
+    position: fixed;
+    top: 7.8rem;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+}
+
+.game-rules {
+    width: 19rem;
+    height: 22rem;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.game-rules_header {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.game-rules_inner {
+    flex-direction: column;
+}
+
+.game-rules_image {
+    width: 100%;
+    height: auto;
+}
+
+.game-rules_title {
+    color: #182648;
+    text-transform: uppercase;
+    margin: 0;
+}

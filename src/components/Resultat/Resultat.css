@@ -1,0 +1,39 @@
+.Resultat{
+    display: none;
+    padding-top: 10vh;
+    margin: auto ;
+    width: 700px;
+    justify-content: space-between;
+}
+.verdict{
+}
+.verdict div p{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+.btn-again{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border: none;
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.userplace{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: #020329;
+    border-radius: 50%;
+}
+.systemplace{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: #020329;
+    border-radius: 50%;
+}
