@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 .userpick img {
-    margin: 40px;
+    margin: 30px;
 }
 
 .userplace{
@@ -40,5 +40,5 @@
     border-radius: 50%;
 }
 .systempick img{
-    margin: 40px;
+    margin: 30px;
 }

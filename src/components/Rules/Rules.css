@@ -1,5 +1,5 @@
 .modal {
-    display: none;
+    display: block;
     position: fixed;
     top: 7.8rem;
     left: 0;
@@ -35,4 +35,7 @@
     color: #182648;
     text-transform: uppercase;
     margin: 0;
+}
+.close-icon{
+    cursor: pointer;
 }

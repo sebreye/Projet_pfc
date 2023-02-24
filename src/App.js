@@ -3,13 +3,15 @@ import React, { useState } from 'react';
 import Choice from './components/Choice/Choice';
 import Header from './components/Header/Header';
 import Resultat from './components/Resultat/Resultat';
-// import Rules from './components/Rules/Rules';
+import Rules from './components/Rules/Rules';
 
   function App() {
     const [userChoice, setUserChoice] = useState(null);
     const [systemChoice, setSystemChoice] = useState(null);
     const [verdict, setVerdict] = useState(null);
-    const [score, setScore] = useState(0)
+    const [score, setScore] = useState(0);
+    const [showModal, setShowModal] = useState(false);
+
 
     function play(userChoice) {
       const choices = ["rock", "paper", "scissors"];
@@ -34,6 +36,9 @@ import Resultat from './components/Resultat/Resultat';
       setUserChoice(userChoice);
       setSystemChoice(systemChoice);
     }
+    function toggleModal() {
+      setShowModal(!showModal);
+    }
 
     function playAgain() {
       setUserChoice(null);
@@ -52,7 +57,14 @@ import Resultat from './components/Resultat/Resultat';
             verdict={verdict}
             onPlayAgain={playAgain}
           />
+          
         }
+        <div className='div-rules'>
+        <button className='btn-rules'  onClick={toggleModal}>
+          RULES
+        </button>
+        </div>
+        {showModal && <Rules onClose={toggleModal} />}
       </div>
     )
   }

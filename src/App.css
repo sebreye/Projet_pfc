@@ -27,6 +27,21 @@
 .App-link {
   color: #61dafb;
 }
+.div-rules{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7rem;
+}
+.btn-rules{
+  height: 50px;
+  width: 150px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  
+}
 
 @keyframes App-logo-spin {
   from {
